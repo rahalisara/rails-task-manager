@@ -1,0 +1,6 @@
+<%= simple_form_for(task) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :details%>
+  <%= f.boolean :completed %>
+  <%= f.submit %>
+<% end %>
